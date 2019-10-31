@@ -6,6 +6,8 @@ public class gameManager : MonoBehaviour
 {
     public static gameManager instance;
 
+
+
     void Awake()
     {
         // As long as there is not an instance already set
@@ -23,7 +25,7 @@ public class gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //int lives = 3;
     }
 
     // Update is called once per frame
